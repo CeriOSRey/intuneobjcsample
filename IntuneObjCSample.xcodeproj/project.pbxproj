@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2D082543B6841CA0062CC0 /* Pods_IntuneObjCSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2B2D57267FDD95BB695E64 /* Pods_IntuneObjCSampleTests.framework */; };
+		26DCDB71DAE937E7F11231DC /* Pods_IntuneObjCSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72217B5FD8BEAACFC3CA34B9 /* Pods_IntuneObjCSample.framework */; };
+		6A39A4CCC04862C471929509 /* Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AE7A943028BC018E7AB909 /* Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework */; };
 		E0C9F2D927F0D56B00F9057D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2D827F0D56B00F9057D /* AppDelegate.m */; };
 		E0C9F2DC27F0D56B00F9057D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2DB27F0D56B00F9057D /* SceneDelegate.m */; };
-		E0C9F2DF27F0D56B00F9057D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2DE27F0D56B00F9057D /* ViewController.m */; };
+		E0C9F2DF27F0D56B00F9057D /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2DE27F0D56B00F9057D /* SignInViewController.m */; };
 		E0C9F2E227F0D56B00F9057D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C9F2E027F0D56B00F9057D /* Main.storyboard */; };
 		E0C9F2E527F0D56B00F9057D /* IntuneObjCSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2E327F0D56B00F9057D /* IntuneObjCSample.xcdatamodeld */; };
 		E0C9F2E727F0D56D00F9057D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C9F2E627F0D56D00F9057D /* Assets.xcassets */; };
@@ -18,6 +21,16 @@
 		E0C9F2F727F0D56D00F9057D /* IntuneObjCSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F2F627F0D56D00F9057D /* IntuneObjCSampleTests.m */; };
 		E0C9F30127F0D56D00F9057D /* IntuneObjCSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F30027F0D56D00F9057D /* IntuneObjCSampleUITests.m */; };
 		E0C9F30327F0D56D00F9057D /* IntuneObjCSampleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F30227F0D56D00F9057D /* IntuneObjCSampleUITestsLaunchTests.m */; };
+		E0C9F31427F0DB9B00F9057D /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F31327F0DB9B00F9057D /* WelcomeViewController.m */; };
+		E0C9F31827F0DE0A00F9057D /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F31727F0DE0A00F9057D /* CalendarViewController.m */; };
+		E0C9F31C27F0DEE900F9057D /* SpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F31B27F0DEE900F9057D /* SpinnerViewController.m */; };
+		E0C9F31E27F0E37500F9057D /* AuthSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C9F31D27F0E37500F9057D /* AuthSettings.plist */; };
+		E0C9F32227F0E46E00F9057D /* AuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F32127F0E46E00F9057D /* AuthenticationManager.m */; };
+		E0C9F32727F0E9B300F9057D /* GraphManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F32627F0E9B300F9057D /* GraphManager.m */; };
+		E0C9F32B27F1079600F9057D /* GraphToIana.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F32A27F1079600F9057D /* GraphToIana.m */; };
+		E0C9F32F27F142C900F9057D /* CalendarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F32E27F142C900F9057D /* CalendarTableViewCell.m */; };
+		E0C9F33327F1448A00F9057D /* CalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F33227F1448A00F9057D /* CalendarTableViewController.m */; };
+		E0C9F33727F15F9100F9057D /* NewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F33627F15F9100F9057D /* NewEventViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2B2D57267FDD95BB695E64 /* Pods_IntuneObjCSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntuneObjCSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE7A943028BC018E7AB909 /* Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B92EB798EA62D4E25B834A0 /* Pods-IntuneObjCSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSampleTests.release.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSampleTests/Pods-IntuneObjCSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C2A00BFF566ACC225847F6D /* Pods-IntuneObjCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSample.debug.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSample/Pods-IntuneObjCSample.debug.xcconfig"; sourceTree = "<group>"; };
+		72217B5FD8BEAACFC3CA34B9 /* Pods_IntuneObjCSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntuneObjCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75513B1A1816E20A28750992 /* Pods-IntuneObjCSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSampleTests/Pods-IntuneObjCSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77347E520D2A68F1064B9696 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSample-IntuneObjCSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSample-IntuneObjCSampleUITests/Pods-IntuneObjCSample-IntuneObjCSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		949760AC3F2C3CA38B87BF9A /* Pods-IntuneObjCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSample.release.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSample/Pods-IntuneObjCSample.release.xcconfig"; sourceTree = "<group>"; };
+		C9C6CDF0B404371F66ED1F36 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntuneObjCSample-IntuneObjCSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-IntuneObjCSample-IntuneObjCSampleUITests/Pods-IntuneObjCSample-IntuneObjCSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0C9F2D427F0D56B00F9057D /* IntuneObjCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntuneObjCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C9F2D727F0D56B00F9057D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0C9F2D827F0D56B00F9057D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0C9F2DA27F0D56B00F9057D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		E0C9F2DB27F0D56B00F9057D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E0C9F2DD27F0D56B00F9057D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E0C9F2DE27F0D56B00F9057D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0C9F2DD27F0D56B00F9057D /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		E0C9F2DE27F0D56B00F9057D /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		E0C9F2E127F0D56B00F9057D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0C9F2E427F0D56B00F9057D /* IntuneObjCSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntuneObjCSample.xcdatamodel; sourceTree = "<group>"; };
 		E0C9F2E627F0D56D00F9057D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +78,26 @@
 		E0C9F2FC27F0D56D00F9057D /* IntuneObjCSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntuneObjCSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C9F30027F0D56D00F9057D /* IntuneObjCSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntuneObjCSampleUITests.m; sourceTree = "<group>"; };
 		E0C9F30227F0D56D00F9057D /* IntuneObjCSampleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntuneObjCSampleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E0C9F31227F0DB9B00F9057D /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		E0C9F31327F0DB9B00F9057D /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		E0C9F31627F0DE0A00F9057D /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		E0C9F31727F0DE0A00F9057D /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		E0C9F31A27F0DEE900F9057D /* SpinnerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinnerViewController.h; sourceTree = "<group>"; };
+		E0C9F31B27F0DEE900F9057D /* SpinnerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinnerViewController.m; sourceTree = "<group>"; };
+		E0C9F31D27F0E37500F9057D /* AuthSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AuthSettings.plist; sourceTree = "<group>"; };
+		E0C9F32027F0E46E00F9057D /* AuthenticationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationManager.h; sourceTree = "<group>"; };
+		E0C9F32127F0E46E00F9057D /* AuthenticationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationManager.m; sourceTree = "<group>"; };
+		E0C9F32327F0E71900F9057D /* IntuneObjCSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntuneObjCSample.entitlements; sourceTree = "<group>"; };
+		E0C9F32527F0E9B300F9057D /* GraphManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphManager.h; sourceTree = "<group>"; };
+		E0C9F32627F0E9B300F9057D /* GraphManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphManager.m; sourceTree = "<group>"; };
+		E0C9F32927F1079600F9057D /* GraphToIana.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphToIana.h; sourceTree = "<group>"; };
+		E0C9F32A27F1079600F9057D /* GraphToIana.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphToIana.m; sourceTree = "<group>"; };
+		E0C9F32D27F142C900F9057D /* CalendarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewCell.h; sourceTree = "<group>"; };
+		E0C9F32E27F142C900F9057D /* CalendarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewCell.m; sourceTree = "<group>"; };
+		E0C9F33127F1448A00F9057D /* CalendarTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarTableViewController.h; sourceTree = "<group>"; };
+		E0C9F33227F1448A00F9057D /* CalendarTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTableViewController.m; sourceTree = "<group>"; };
+		E0C9F33527F15F9100F9057D /* NewEventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewEventViewController.h; sourceTree = "<group>"; };
+		E0C9F33627F15F9100F9057D /* NewEventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewEventViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DCDB71DAE937E7F11231DC /* Pods_IntuneObjCSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2D082543B6841CA0062CC0 /* Pods_IntuneObjCSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +121,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A39A4CCC04862C471929509 /* Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1808BB5B4AD66431D32262B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72217B5FD8BEAACFC3CA34B9 /* Pods_IntuneObjCSample.framework */,
+				29AE7A943028BC018E7AB909 /* Pods_IntuneObjCSample_IntuneObjCSampleUITests.framework */,
+				0C2B2D57267FDD95BB695E64 /* Pods_IntuneObjCSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C82F56FC9327E9DB4FEB8FB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C2A00BFF566ACC225847F6D /* Pods-IntuneObjCSample.debug.xcconfig */,
+				949760AC3F2C3CA38B87BF9A /* Pods-IntuneObjCSample.release.xcconfig */,
+				C9C6CDF0B404371F66ED1F36 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.debug.xcconfig */,
+				77347E520D2A68F1064B9696 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.release.xcconfig */,
+				75513B1A1816E20A28750992 /* Pods-IntuneObjCSampleTests.debug.xcconfig */,
+				4B92EB798EA62D4E25B834A0 /* Pods-IntuneObjCSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E0C9F2CB27F0D56B00F9057D = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +158,8 @@
 				E0C9F2F527F0D56D00F9057D /* IntuneObjCSampleTests */,
 				E0C9F2FF27F0D56D00F9057D /* IntuneObjCSampleUITests */,
 				E0C9F2D527F0D56B00F9057D /* Products */,
+				C82F56FC9327E9DB4FEB8FB9 /* Pods */,
+				1808BB5B4AD66431D32262B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,18 +176,23 @@
 		E0C9F2D627F0D56B00F9057D /* IntuneObjCSample */ = {
 			isa = PBXGroup;
 			children = (
-				E0C9F2D727F0D56B00F9057D /* AppDelegate.h */,
-				E0C9F2D827F0D56B00F9057D /* AppDelegate.m */,
-				E0C9F2DA27F0D56B00F9057D /* SceneDelegate.h */,
-				E0C9F2DB27F0D56B00F9057D /* SceneDelegate.m */,
-				E0C9F2DD27F0D56B00F9057D /* ViewController.h */,
-				E0C9F2DE27F0D56B00F9057D /* ViewController.m */,
+				E0C9F31027F0D98800F9057D /* AppDelegates */,
+				E0C9F31F27F0E44C00F9057D /* AuthenticationManager */,
+				E0C9F31527F0DDEB00F9057D /* Calendar */,
+				E0C9F32427F0E99200F9057D /* GraphManager */,
+				E0C9F32827F1077100F9057D /* GraphToIana */,
+				E0C9F33427F15F5800F9057D /* NewEvent */,
+				E0C9F30F27F0D8B000F9057D /* SignIn */,
+				E0C9F31927F0DED100F9057D /* Spinner */,
+				E0C9F31127F0DB6900F9057D /* Welcome */,
 				E0C9F2E027F0D56B00F9057D /* Main.storyboard */,
 				E0C9F2E627F0D56D00F9057D /* Assets.xcassets */,
 				E0C9F2E827F0D56D00F9057D /* LaunchScreen.storyboard */,
 				E0C9F2EB27F0D56D00F9057D /* Info.plist */,
 				E0C9F2EC27F0D56D00F9057D /* main.m */,
 				E0C9F2E327F0D56B00F9057D /* IntuneObjCSample.xcdatamodeld */,
+				E0C9F32327F0E71900F9057D /* IntuneObjCSample.entitlements */,
+				E0C9F31D27F0E37500F9057D /* AuthSettings.plist */,
 			);
 			path = IntuneObjCSample;
 			sourceTree = "<group>";
@@ -139,6 +214,109 @@
 			path = IntuneObjCSampleUITests;
 			sourceTree = "<group>";
 		};
+		E0C9F30F27F0D8B000F9057D /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F2DD27F0D56B00F9057D /* SignInViewController.h */,
+				E0C9F2DE27F0D56B00F9057D /* SignInViewController.m */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		E0C9F31027F0D98800F9057D /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F2D727F0D56B00F9057D /* AppDelegate.h */,
+				E0C9F2D827F0D56B00F9057D /* AppDelegate.m */,
+				E0C9F2DA27F0D56B00F9057D /* SceneDelegate.h */,
+				E0C9F2DB27F0D56B00F9057D /* SceneDelegate.m */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		E0C9F31127F0DB6900F9057D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F31227F0DB9B00F9057D /* WelcomeViewController.h */,
+				E0C9F31327F0DB9B00F9057D /* WelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		E0C9F31527F0DDEB00F9057D /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F33027F1445800F9057D /* CalendarTableViewController */,
+				E0C9F32C27F1429A00F9057D /* CalendarCell */,
+				E0C9F31627F0DE0A00F9057D /* CalendarViewController.h */,
+				E0C9F31727F0DE0A00F9057D /* CalendarViewController.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E0C9F31927F0DED100F9057D /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F31A27F0DEE900F9057D /* SpinnerViewController.h */,
+				E0C9F31B27F0DEE900F9057D /* SpinnerViewController.m */,
+			);
+			path = Spinner;
+			sourceTree = "<group>";
+		};
+		E0C9F31F27F0E44C00F9057D /* AuthenticationManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F32027F0E46E00F9057D /* AuthenticationManager.h */,
+				E0C9F32127F0E46E00F9057D /* AuthenticationManager.m */,
+			);
+			path = AuthenticationManager;
+			sourceTree = "<group>";
+		};
+		E0C9F32427F0E99200F9057D /* GraphManager */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F32527F0E9B300F9057D /* GraphManager.h */,
+				E0C9F32627F0E9B300F9057D /* GraphManager.m */,
+			);
+			path = GraphManager;
+			sourceTree = "<group>";
+		};
+		E0C9F32827F1077100F9057D /* GraphToIana */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F32927F1079600F9057D /* GraphToIana.h */,
+				E0C9F32A27F1079600F9057D /* GraphToIana.m */,
+			);
+			path = GraphToIana;
+			sourceTree = "<group>";
+		};
+		E0C9F32C27F1429A00F9057D /* CalendarCell */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F32D27F142C900F9057D /* CalendarTableViewCell.h */,
+				E0C9F32E27F142C900F9057D /* CalendarTableViewCell.m */,
+			);
+			path = CalendarCell;
+			sourceTree = "<group>";
+		};
+		E0C9F33027F1445800F9057D /* CalendarTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F33127F1448A00F9057D /* CalendarTableViewController.h */,
+				E0C9F33227F1448A00F9057D /* CalendarTableViewController.m */,
+			);
+			path = CalendarTableViewController;
+			sourceTree = "<group>";
+		};
+		E0C9F33427F15F5800F9057D /* NewEvent */ = {
+			isa = PBXGroup;
+			children = (
+				E0C9F33527F15F9100F9057D /* NewEventViewController.h */,
+				E0C9F33627F15F9100F9057D /* NewEventViewController.m */,
+			);
+			path = NewEvent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C9F30627F0D56D00F9057D /* Build configuration list for PBXNativeTarget "IntuneObjCSample" */;
 			buildPhases = (
+				25339CA5A705EB2E5563796C /* [CP] Check Pods Manifest.lock */,
 				E0C9F2D027F0D56B00F9057D /* Sources */,
 				E0C9F2D127F0D56B00F9057D /* Frameworks */,
 				E0C9F2D227F0D56B00F9057D /* Resources */,
+				F33C18DC161C4F3EBB0666B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C9F30927F0D56D00F9057D /* Build configuration list for PBXNativeTarget "IntuneObjCSampleTests" */;
 			buildPhases = (
+				0A3A3F1EA721C9AF30F94AE7 /* [CP] Check Pods Manifest.lock */,
 				E0C9F2EE27F0D56D00F9057D /* Sources */,
 				E0C9F2EF27F0D56D00F9057D /* Frameworks */,
 				E0C9F2F027F0D56D00F9057D /* Resources */,
@@ -181,9 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C9F30C27F0D56D00F9057D /* Build configuration list for PBXNativeTarget "IntuneObjCSampleUITests" */;
 			buildPhases = (
+				A1660320F7275ED62D4954F6 /* [CP] Check Pods Manifest.lock */,
 				E0C9F2F827F0D56D00F9057D /* Sources */,
 				E0C9F2F927F0D56D00F9057D /* Frameworks */,
 				E0C9F2FA27F0D56D00F9057D /* Resources */,
+				0D2BE760007D487B04BC00B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +428,7 @@
 				E0C9F2EA27F0D56D00F9057D /* LaunchScreen.storyboard in Resources */,
 				E0C9F2E727F0D56D00F9057D /* Assets.xcassets in Resources */,
 				E0C9F2E227F0D56B00F9057D /* Main.storyboard in Resources */,
+				E0C9F31E27F0E37500F9057D /* AuthSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,16 +448,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A3A3F1EA721C9AF30F94AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntuneObjCSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D2BE760007D487B04BC00B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample-IntuneObjCSampleUITests/Pods-IntuneObjCSample-IntuneObjCSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample-IntuneObjCSampleUITests/Pods-IntuneObjCSample-IntuneObjCSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample-IntuneObjCSampleUITests/Pods-IntuneObjCSample-IntuneObjCSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25339CA5A705EB2E5563796C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntuneObjCSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1660320F7275ED62D4954F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntuneObjCSample-IntuneObjCSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F33C18DC161C4F3EBB0666B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample/Pods-IntuneObjCSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample/Pods-IntuneObjCSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntuneObjCSample/Pods-IntuneObjCSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0C9F2D027F0D56B00F9057D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C9F31C27F0DEE900F9057D /* SpinnerViewController.m in Sources */,
 				E0C9F2ED27F0D56D00F9057D /* main.m in Sources */,
+				E0C9F32727F0E9B300F9057D /* GraphManager.m in Sources */,
+				E0C9F32F27F142C900F9057D /* CalendarTableViewCell.m in Sources */,
 				E0C9F2E527F0D56B00F9057D /* IntuneObjCSample.xcdatamodeld in Sources */,
-				E0C9F2DF27F0D56B00F9057D /* ViewController.m in Sources */,
+				E0C9F2DF27F0D56B00F9057D /* SignInViewController.m in Sources */,
+				E0C9F33727F15F9100F9057D /* NewEventViewController.m in Sources */,
 				E0C9F2D927F0D56B00F9057D /* AppDelegate.m in Sources */,
 				E0C9F2DC27F0D56B00F9057D /* SceneDelegate.m in Sources */,
+				E0C9F33327F1448A00F9057D /* CalendarTableViewController.m in Sources */,
+				E0C9F31427F0DB9B00F9057D /* WelcomeViewController.m in Sources */,
+				E0C9F31827F0DE0A00F9057D /* CalendarViewController.m in Sources */,
+				E0C9F32227F0E46E00F9057D /* AuthenticationManager.m in Sources */,
+				E0C9F32B27F1079600F9057D /* GraphToIana.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,9 +739,11 @@
 		};
 		E0C9F30727F0D56D00F9057D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2A00BFF566ACC225847F6D /* Pods-IntuneObjCSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntuneObjCSample/IntuneObjCSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KWJ24YG9V;
@@ -470,9 +768,11 @@
 		};
 		E0C9F30827F0D56D00F9057D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949760AC3F2C3CA38B87BF9A /* Pods-IntuneObjCSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IntuneObjCSample/IntuneObjCSample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KWJ24YG9V;
@@ -497,6 +797,7 @@
 		};
 		E0C9F30A27F0D56D00F9057D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75513B1A1816E20A28750992 /* Pods-IntuneObjCSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +816,7 @@
 		};
 		E0C9F30B27F0D56D00F9057D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B92EB798EA62D4E25B834A0 /* Pods-IntuneObjCSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +835,7 @@
 		};
 		E0C9F30D27F0D56D00F9057D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C6CDF0B404371F66ED1F36 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,6 +852,7 @@
 		};
 		E0C9F30E27F0D56D00F9057D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77347E520D2A68F1064B9696 /* Pods-IntuneObjCSample-IntuneObjCSampleUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
